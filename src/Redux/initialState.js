@@ -7,6 +7,7 @@ export const initialState = {
   energy: {value: 100, max: 100},
   nourishment: 100,
   hygiene: 100,
+  zen: 100,
   money: 50,
   location: 'squalor_square',
   notifications: [],

@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
+import {faCalendarAlt, faClock} from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Moment from "moment";
 
 class TimeAndDate extends Component {
@@ -12,14 +14,16 @@ class TimeAndDate extends Component {
     const weekdayName = daysOfWeek[currentDayOfWeekIndex];
     return (
       <div>
-        <h2>
-          {weekdayName}
-        </h2>
         <h3>
-          {dateDisplay}
+          {weekdayName}
         </h3>
         <h4>
-          {timeDisplay}
+          <FontAwesomeIcon icon={faCalendarAlt}/>
+          <span className="ml-2">{dateDisplay}</span>
+        </h4>
+        <h4>
+          <FontAwesomeIcon icon={faClock}/>
+          <span className="ml-2">{timeDisplay}</span>
         </h4>
       </div>
     );

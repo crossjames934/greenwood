@@ -1,12 +1,15 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
+import {faMoneyBill} from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 class Money extends Component {
   render() {
     return(
-      <div>
-        
-      </div>
+      <h4 className='font-weight-bold text-success'>
+        <FontAwesomeIcon icon={faMoneyBill}/>
+        <span className="ml-2">{this.props.money}</span>
+      </h4>
     )
   }
 }
