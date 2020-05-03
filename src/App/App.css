@@ -1,0 +1,30 @@
+body {
+  background: #121212;
+  color: white;
+  font-family: monospace, sans-serif;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 1fr 300px;
+}
+
+.player-stats {
+  height: 100vh;
+  background: #24282B;
+  padding: 20px;
+  grid-row: span 2;
+}
+
+.notifications {
+  width: 100%;
+  background: #323436;
+  overflow-y: scroll;
+}
+
+.progress {
+  height: 30px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}

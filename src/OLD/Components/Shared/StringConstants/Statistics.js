@@ -1,0 +1,10 @@
+export const HEALTH = 'HEALTH';
+export const ENERGY = 'ENERGY';
+export const NOURISHMENT = 'NOURISHMENT';
+export const HYGIENE = 'HYGIENE';
+export const MONEY = 'MONEY';
+export const LOCATION = 'LOCATION';
+export const MAXIMUMS = 'MAXIMUMS';
+export const MINUTES_PASSED = 'MINUTES_PASSED';
+export const VENUE_STATUS = 'VENUE_STATUS';
+export const NOTIFICATIONS = 'NOTIFICATIONS';
