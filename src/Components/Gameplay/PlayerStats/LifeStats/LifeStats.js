@@ -9,23 +9,25 @@ class LifeStats extends Component {
   energyIcon = () => <FontAwesomeIcon icon={faBatteryFull}/>;
   nourishmentIcon = () => <FontAwesomeIcon icon={faUtensils}/>;
   hygieneIcon = () => <FontAwesomeIcon icon={faShower}/>;
+  zenIcon = () => <FontAwesomeIcon icon={faDove}/>;
 
   render() {
-    const {healthIcon, energyIcon, nourishmentIcon, hygieneIcon} = this;
-    const {health, energy, nourishment, hygiene} = this.props;
+    const {healthIcon, energyIcon, nourishmentIcon, hygieneIcon, zenIcon} = this;
+    const {health, energy, nourishment, hygiene, zen} = this.props;
     return(
       <div>
         <SingleStat icon={healthIcon()} label={"Health"} value={health.value} max={health.max}/>
         <SingleStat icon={energyIcon()} label={"Energy"} value={energy.value} max={energy.max}/>
         <SingleStat icon={nourishmentIcon()} label={"Nourishment"} value={nourishment} max={100}/>
         <SingleStat icon={hygieneIcon()} label={"Hygiene"} value={hygiene} max={100}/>
+        <SingleStat icon={zenIcon()} label={"Zen"} value={zen} max={100}/>
       </div>
     )
   }
 }
 
-const mapStateToProps = ({health, energy, nourishment, hygiene}) => (
-  {health, energy, nourishment, hygiene}
+const mapStateToProps = ({health, energy, nourishment, hygiene, zen}) => (
+  {health, energy, nourishment, hygiene, zen}
 );
 
 export default connect(mapStateToProps)(LifeStats);
