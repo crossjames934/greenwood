@@ -1,1 +1,3 @@
 export const SET_ACTIVE_COMPONENT = "SET_ACTIVE_COMPONENT";
+
+export const SET_STATE = "SET_STATE";

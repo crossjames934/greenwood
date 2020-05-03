@@ -1,6 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 import TestVenue from "../Components/TestVenue/TestVenue";
+import Greenwood from "../Locations/Greenwood/Greenwood";
 
 const startOfGameTime = new moment('01/01/2025 05:00', 'DD/MM/YYYY HH:mm');
 
@@ -11,7 +12,7 @@ export const initialState = {
   hygiene: 100,
   zen: 100,
   money: 50,
-  activeComponent: <TestVenue/>,
+  activeComponent: <Greenwood/>,
   notifications: [],
   gameTime: startOfGameTime,
   experience: {

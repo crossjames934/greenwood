@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
+import {Button} from 'reactstrap';
+import TestVenueOther from "./TestVenueOther";
+import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {setActiveComponent} from "../../Redux/actions/actions";
-import {Button} from 'reactstrap';
-import {connect} from 'react-redux';
-import TestVenueOther from "./TestVenueOther";
 
 const mapDispatchToProps = dispatch => (
   bindActionCreators({setActiveComponent}, dispatch)

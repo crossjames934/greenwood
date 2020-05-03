@@ -2,34 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4e21b9-2549-4ef8-8824-a9b1ca12b620" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Gameplay/CurrentView/CurrentView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/TestVenue/TestVenueOther.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Locations/Greenwood/Greenwood.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/StandardButton/StandardButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Locations/Greenwood/CluckShack/CluckShack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Locations/Greenwood/CluckShack/employment/cluckShackCareerPath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Locations/Greenwood/SqualorSquare/SqualorSquare.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Gameplay/Notifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Gameplay/Notifications/Notifications.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/LifeStats/LifeStats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/LifeStats/LifeStats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Gameplay/CurrentView/CurrentView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Gameplay/CurrentView/CurrentView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/TestVenue/TestVenue.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TestVenue/TestVenue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Locations/locationData/Greenwood/CluckShack/actions/askForJob.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Locations/locationData/Greenwood/CluckShack/cluckShack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Locations/locationData/Greenwood/CluckShack/employment/cluckShackCareerPath.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Locations/locationData/Greenwood/SqualorSquare/bathroom/ssBathroom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Locations/locationData/Greenwood/SqualorSquare/bedroom/ssBedroom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Locations/locationData/Greenwood/SqualorSquare/squalorSquare.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Locations/locationData/Greenwood/greenwood.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Locations/locationData/locationData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Locations/locationIdentifiers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Shared/Components/NavigationList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Shared/Components/SingleStat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Shared/Methods/DefaultActionEffect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Shared/Methods/GetCurrentTime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Shared/Methods/PushToNotifications.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Shared/StartDateOfGame.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Shared/StringConstants/Statistics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/Components/Shared/StringConstants/VenueStatus.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OLD/CurrentView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locations/Greenwood/Greenwood.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locations/Greenwood/Greenwood.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/actionTypes/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/actionTypes/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/actions/setLocation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/actions/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/actions/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/actions/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/initialState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/initialState.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/index.js" afterDir="false" />
     </list>
@@ -57,19 +40,19 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="StartDateOfGame" value="1" />
-          <entry key="css" value="9" />
-          <entry key="j" value="2" />
-          <entry key="js" value="160" />
+          <entry key="css" value="10" />
+          <entry key="j" value="3" />
+          <entry key="js" value="171" />
           <entry key="json" value="4" />
           <entry key="ts" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="9" />
+          <entry key="CSS" value="10" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="160" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="JavaScript" value="171" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="TypeScript" value="2" />
         </counts>
       </usages-collector>
@@ -81,14 +64,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="471" />
-          <entry key="js" value="15838" />
+          <entry key="css" value="514" />
+          <entry key="js" value="16975" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="471" />
-          <entry key="JavaScript" value="15838" />
+          <entry key="CSS" value="514" />
+          <entry key="JavaScript" value="16975" />
         </counts>
       </usages-collector>
     </session>
@@ -96,10 +79,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/PlayerStats.js">
+        <entry file="file://$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/Money/Money.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="45">
+              <caret line="3" column="63" lean-forward="true" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Locations/Greenwood/Greenwood.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/StandardButton/StandardButton.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Locations/Greenwood/CluckShack/CluckShack.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -108,8 +127,63 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Locations/Greenwood/Greenwood.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/App/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Locations/Greenwood/CluckShack/employment/cluckShackCareerPath.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Redux/initialState.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Redux/actions/actions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Redux/actionTypes/actionTypes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Redux/reducers/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -132,10 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Components/Locations/locationData/Greenwood/squalorSquare/squalorSquare.js" />
-        <option value="$PROJECT_DIR$/src/Components/Locations/locationData/Greenwood/squalorSquare/bedroom/actions/cook.js" />
-        <option value="$PROJECT_DIR$/src/Components/Locations/locationData/Greenwood/squalorSquare/bedroom/actions/cookNoodles.js" />
-        <option value="$PROJECT_DIR$/src/Components/Locations/locationData/Greenwood/squalorSquare/bedroom/actions/sleep.js" />
         <option value="$PROJECT_DIR$/src/Components/Locations/locationData/Greenwood/squalorSquare/bedroom/ssBedroom.js" />
         <option value="$PROJECT_DIR$/src/Components/Shared/SingleStat.js" />
         <option value="$PROJECT_DIR$/src/Components/Shared/NavigationList.js" />
@@ -171,18 +241,22 @@
         <option value="$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/Money/Money.js" />
         <option value="$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/TimeAndDate/TimeAndDate.js" />
         <option value="$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/PlayerStats.js" />
-        <option value="$PROJECT_DIR$/src/App/App.css" />
         <option value="$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/LifeStats/SingleStat.js" />
         <option value="$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/LifeStats/LifeStats.js" />
+        <option value="$PROJECT_DIR$/src/Components/TestVenue/TestVenueOther.js" />
+        <option value="$PROJECT_DIR$/src/App/App.js" />
+        <option value="$PROJECT_DIR$/src/Redux/initialState.js" />
+        <option value="$PROJECT_DIR$/src/Locations/Greenwood/SqualorSquare/SqualorSquare.js" />
+        <option value="$PROJECT_DIR$/src/Components/TestVenue/TestVenue.js" />
+        <option value="$PROJECT_DIR$/src/Components/Gameplay/CurrentView/CurrentView.js" />
+        <option value="$PROJECT_DIR$/src/Locations/Greenwood/CluckShack/employment/cluckShackCareerPath.js" />
+        <option value="$PROJECT_DIR$/src/Components/StandardButton/StandardButton.js" />
+        <option value="$PROJECT_DIR$/src/Locations/Greenwood/Greenwood.js" />
         <option value="$PROJECT_DIR$/src/Redux/actionTypes/actionTypes.js" />
         <option value="$PROJECT_DIR$/src/Redux/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/Redux/actions/actions.js" />
-        <option value="$PROJECT_DIR$/src/Components/TestVenue/TestVenueOther.js" />
-        <option value="$PROJECT_DIR$/src/Components/Gameplay/CurrentView/CurrentView.js" />
-        <option value="$PROJECT_DIR$/src/Redux/initialState.js" />
-        <option value="$PROJECT_DIR$/src/App/App.js" />
-        <option value="$PROJECT_DIR$/src/Components/TestVenue/TestVenue.js" />
-        <option value="$PROJECT_DIR$/src/Locations/Greenwood/Greenwood.js" />
+        <option value="$PROJECT_DIR$/src/Locations/Greenwood/CluckShack/CluckShack.js" />
+        <option value="$PROJECT_DIR$/src/App/App.css" />
       </list>
     </option>
   </component>
@@ -210,7 +284,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="720" />
+    <option name="width" value="2560" />
     <option name="height" value="833" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -250,7 +324,34 @@
               <item name="lifesim" type="b2602c69:ProjectViewProjectNode" />
               <item name="lifesim" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Locations" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifesim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifesim" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Redux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifesim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifesim" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Redux" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifesim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifesim" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Redux" type="462c0819:PsiDirectoryNode" />
+              <item name="actionTypes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifesim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifesim" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Redux" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,6 +380,9 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Locations/Greenwood/CluckShack" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Components/Gameplay/Notifications" />
       <recent name="$PROJECT_DIR$/src/Components/Gameplay/PlayerStats" />
@@ -312,12 +416,12 @@
       <workItem from="1587832164681" duration="27566000" />
       <workItem from="1588007035452" duration="1546000" />
       <workItem from="1588091725717" duration="4614000" />
-      <workItem from="1588439137304" duration="10581000" />
+      <workItem from="1588439137304" duration="13275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44307000" />
+    <option name="totallyTimeSpent" value="47001000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,9 +438,9 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32928476" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32928476" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -380,15 +484,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Utility/serviceWorker.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utility/setupTests.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Locations/GreenWood/SqualorSquare/Values/roomOptions.js" />
-    <entry file="file://$PROJECT_DIR$/src/Components/Locations/GreenWood/SqualorSquare/SqualorSquare.js" />
-    <entry file="file://$PROJECT_DIR$/src/index.css" />
     <entry file="file://$PROJECT_DIR$/src/Components/Locations/GreenWood/SqualorSquare/Rooms/Bedroom/SSBedroom.js" />
     <entry file="file://$PROJECT_DIR$/src/Components/Locations/locationData/Greenwood/SqualorSquare/bedroom/actions/sleep.js" />
     <entry file="file://$PROJECT_DIR$/src/Components/Locations/locationData/Greenwood/SqualorSquare/bedroom/actions/cookNoodles.js" />
@@ -580,23 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/Money/Money.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/LifeStats/SingleStat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -640,66 +718,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/TestVenue/TestVenue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Redux/store/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Redux/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Redux/actionTypes/actionTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Redux/actions/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Gameplay/CurrentView/CurrentView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Redux/initialState.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -716,8 +740,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/PlayerStats.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/TestVenue/TestVenue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Locations/Greenwood/SqualorSquare/SqualorSquare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Gameplay/CurrentView/CurrentView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Locations/Greenwood/CluckShack/j">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/StandardButton/StandardButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/Money/Money.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="63" lean-forward="true" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -725,7 +802,72 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Locations/Greenwood/Greenwood.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/initialState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/actionTypes/actionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/actions/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Locations/Greenwood/CluckShack/employment/cluckShackCareerPath.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Locations/Greenwood/CluckShack/CluckShack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

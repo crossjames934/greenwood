@@ -1,4 +1,4 @@
-import {SET_ACTIVE_COMPONENT, SET_LOCATION} from "../actionTypes/actionTypes";
+import {SET_ACTIVE_COMPONENT, SET_LOCATION, SET_STATE} from "../actionTypes/actionTypes";
 import {initialState} from "../initialState";
 
 function rootReducer(state = initialState, action) {
@@ -7,6 +7,11 @@ function rootReducer(state = initialState, action) {
       return {
         ...state,
         activeComponent: action.payload
+      };
+    case SET_STATE:
+      return {
+        ...state,
+        ...action.state
       };
     default:
       return state

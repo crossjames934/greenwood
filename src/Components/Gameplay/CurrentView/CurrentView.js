@@ -5,7 +5,7 @@ class CurrentView extends Component {
   render() {
     const {activeComponent} = this.props;
     return(
-      <div>
+      <div className="p-2">
         {activeComponent}
       </div>
     )
