@@ -6,14 +6,14 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 class StandardButton extends Component {
   render() {
     const {color, icon, text, clickFunction} = this.props;
-    return(
+    return (
       <div className="mb-2">
         <Button color={color} onClick={clickFunction}>
           <FontAwesomeIcon icon={icon}/>
           <span className="ml-2">{text}</span>
         </Button>
       </div>
-    )
+    );
   }
 }
 

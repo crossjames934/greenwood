@@ -1,4 +1,4 @@
-import {SET_ACTIVE_COMPONENT, SET_LOCATION, SET_STATE} from "../actionTypes/actionTypes";
+import {PUSH_NOTIFICATION, SET_ACTIVE_COMPONENT, SET_STATE} from "../actionTypes/actionTypes";
 import {initialState} from "../initialState";
 
 function rootReducer(state = initialState, action) {
@@ -12,6 +12,11 @@ function rootReducer(state = initialState, action) {
       return {
         ...state,
         ...action.state
+      };
+    case PUSH_NOTIFICATION:
+      return {
+        ...state,
+        notifications: [...state.notifications, action.notification]
       };
     default:
       return state

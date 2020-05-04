@@ -1,6 +1,5 @@
 import React from 'react';
 import moment from 'moment';
-import TestVenue from "../Components/TestVenue/TestVenue";
 import Greenwood from "../Locations/Greenwood/Greenwood";
 
 const startOfGameTime = new moment('01/01/2025 05:00', 'DD/MM/YYYY HH:mm');

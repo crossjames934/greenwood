@@ -10,7 +10,7 @@ class Money extends Component {
         <FontAwesomeIcon icon={faMoneyBill}/>
         <span className="ml-2">{this.props.money}</span>
       </h4>
-    )
+    );
   }
 }
 

@@ -17,6 +17,7 @@ class Notifications extends Component {
   };
 
   render() {
+    console.log(this.props.notifications);
     return(
       <div className="notifications">
         <ul>

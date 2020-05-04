@@ -1,3 +1,7 @@
 export const SET_ACTIVE_COMPONENT = "SET_ACTIVE_COMPONENT";
 
 export const SET_STATE = "SET_STATE";
+
+export const CHANGE_STATE = "CHANGE_STATE";
+
+export const PUSH_NOTIFICATION = "PUSH_NOTIFICATION";

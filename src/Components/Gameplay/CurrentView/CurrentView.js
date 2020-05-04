@@ -8,7 +8,7 @@ class CurrentView extends Component {
       <div className="p-2">
         {activeComponent}
       </div>
-    )
+    );
   }
 }
 
