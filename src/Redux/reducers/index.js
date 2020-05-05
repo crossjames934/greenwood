@@ -1,5 +1,6 @@
-import {PUSH_NOTIFICATION, SET_ACTIVE_COMPONENT, SET_STATE} from "../actionTypes/actionTypes";
+import {UPDATE_STATS, PUSH_NOTIFICATION, SET_ACTIVE_COMPONENT, SET_STATE} from "../actionTypes/actionTypes";
 import {initialState} from "../initialState";
+import {determineNewStats} from "./ChangeState/determineNewStats";
 
 function rootReducer(state = initialState, action) {
   switch (action.type) {
@@ -13,6 +14,12 @@ function rootReducer(state = initialState, action) {
         ...state,
         ...action.state
       };
+    case UPDATE_STATS:
+      const newState = determineNewStats(state, action.update);
+      return {
+        ...state,
+        ...newState
+      }
     case PUSH_NOTIFICATION:
       return {
         ...state,
@@ -20,7 +27,7 @@ function rootReducer(state = initialState, action) {
       };
     default:
       return state
-  }
+  }ß
 }
 
 export default rootReducer;

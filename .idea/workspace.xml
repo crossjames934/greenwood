@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4e21b9-2549-4ef8-8824-a9b1ca12b620" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Locations/Greenwood/SqualorSquare/Bedroom/Bedroom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/reducers/ChangeState/determineNewStats.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Gameplay/CurrentView/CurrentView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Gameplay/CurrentView/CurrentView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Gameplay/Notifications/Notifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Gameplay/Notifications/Notifications.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/Money/Money.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/Money/Money.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/StandardButton/StandardButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StandardButton/StandardButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locations/Greenwood/CluckShack/CluckShack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locations/Greenwood/CluckShack/CluckShack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locations/Greenwood/SqualorSquare/SqualorSquare.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locations/Greenwood/SqualorSquare/SqualorSquare.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/actionTypes/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/actionTypes/actionTypes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/actions/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/actions/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/initialState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/initialState.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +107,7 @@
       <workItem from="1588439137304" duration="16557000" />
       <workItem from="1588586885801" duration="319000" />
       <workItem from="1588587811283" duration="163000" />
-      <workItem from="1588621816583" duration="2012000" />
+      <workItem from="1588621816583" duration="3346000" />
     </task>
     <servers />
   </component>
