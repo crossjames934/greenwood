@@ -1,21 +1,19 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
 import {bindActionCreators} from 'redux';
-import {faBed} from '@fortawesome/free-solid-svg-icons';
+import {faBed, faCity} from '@fortawesome/free-solid-svg-icons';
 import {setActiveComponent} from "../../../Redux/actions/actions";
-import StandardButton from "../../../Components/StandardButton/StandardButton";
 import Bedroom from "./Bedroom/Bedroom";
+import NavigationButton from "../../../Components/NavigationButton/NavigationButton";
+import Greenwood from "../Greenwood";
 
 class SqualorSquare extends Component {
-  goToBedroom = () => {
-    this.props.setActiveComponent(<Bedroom/>);
-  };
-
   render() {
     return(
       <div>
         <h1>Squalor Square</h1>
-        <StandardButton color="info" icon={faBed} text="Bedroom" clickFunction={this.goToBedroom}/>
+        <NavigationButton targetComponent={<Bedroom/>} icon={faBed} text="Bedroom"/>
+        <NavigationButton targetComponent={<Greenwood/>} icon={faCity} text="Exit (To Greenwood)"/>
       </div>
     )
   }

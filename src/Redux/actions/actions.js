@@ -1,17 +1,31 @@
-import {UPDATE_STATS, PUSH_NOTIFICATION, SET_ACTIVE_COMPONENT, SET_STATE} from "../actionTypes/actionTypes";
+import {
+  UPDATE_STATS,
+  PUSH_NOTIFICATION,
+  SET_ACTIVE_COMPONENT,
+  SET_STATE,
+  PASS_MINUTES, SET_TIME_TO
+} from "../actionTypes/actionTypes";
 
 export function setActiveComponent(payload) {
   return { type: SET_ACTIVE_COMPONENT, payload }
 }
 
-export function setState(state) {
-  return { type: SET_STATE, state }
+export function setState(payload) {
+  return { type: SET_STATE, payload }
 }
 
-export function updateStats(update) {
-  return { type: UPDATE_STATS, update }
+export function updateStats(payload) {
+  return { type: UPDATE_STATS, payload }
 }
 
-export function pushNotification(notification) {
-  return { type: PUSH_NOTIFICATION, notification }
+export function pushNotification(payload) {
+  return { type: PUSH_NOTIFICATION, payload }
+}
+
+export function passMinutes(payload) {
+  return { type: PASS_MINUTES, payload }
+}
+
+export function setTimeTo(payload) {
+  return { type: SET_TIME_TO, payload }
 }

@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4e21b9-2549-4ef8-8824-a9b1ca12b620" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/custom_scripts/moment_playground.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/NavigationButton/NavigationButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Locations/Greenwood/CluckBunker/CluckBunker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Locations/Greenwood/CluckBunker/Components/WorkAtCluckBunker/WorkAtCluckBunker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StandardButton/StandardButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StandardButton/StandardButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locations/Greenwood/CluckShack/CluckShack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locations/Greenwood/CluckShack/employment/cluckShackCareerPath.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locations/Greenwood/CluckBunker/Components/WorkAtCluckBunker/employment/cluckShackCareerPath.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locations/Greenwood/Greenwood.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locations/Greenwood/Greenwood.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Locations/Greenwood/SqualorSquare/Bedroom/Bedroom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locations/Greenwood/SqualorSquare/Bedroom/Bedroom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Locations/Greenwood/SqualorSquare/SqualorSquare.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locations/Greenwood/SqualorSquare/SqualorSquare.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/actionTypes/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/actionTypes/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/actions/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/actions/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -32,11 +47,6 @@
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="2560" />
-    <option name="height" value="1373" />
   </component>
   <component name="ProjectId" id="1bRH4pTYTTOiJ6EkepJjP3CDO3g" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -63,6 +73,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,15 +90,15 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Locations/Greenwood/CluckShack" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Locations/Greenwood/CluckBunker/Components/WorkAtCluckBunker" />
       <recent name="$PROJECT_DIR$/src/Components/Gameplay/Notifications" />
       <recent name="$PROJECT_DIR$/src/Components/Gameplay/PlayerStats" />
       <recent name="$PROJECT_DIR$/src/Components" />
       <recent name="$PROJECT_DIR$/src/OLD" />
-      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Locations/Greenwood/CluckShack" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -106,7 +117,10 @@
       <workItem from="1588439137304" duration="16557000" />
       <workItem from="1588586885801" duration="319000" />
       <workItem from="1588587811283" duration="163000" />
-      <workItem from="1588621816583" duration="3793000" />
+      <workItem from="1588621816583" duration="4561000" />
+      <workItem from="1588698331472" duration="14000" />
+      <workItem from="1588761217978" duration="645000" />
+      <workItem from="1589027683943" duration="10723000" />
     </task>
     <servers />
   </component>
@@ -121,6 +135,13 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2385" y="336" width="670" height="676" key="search.everywhere.popup" timestamp="1589043319541">
+      <screen x="1440" y="23" width="2560" height="1371" />
+    </state>
+    <state x="945" y="336" width="670" height="676" key="search.everywhere.popup/0.23.2560.1371@0.23.2560.1371" timestamp="1589036349480" />
+    <state x="2385" y="336" width="670" height="676" key="search.everywhere.popup/1440.23.2560.1371/0.23.1440.877@1440.23.2560.1371" timestamp="1589043319541" />
   </component>
   <component name="masterDetails">
     <states>

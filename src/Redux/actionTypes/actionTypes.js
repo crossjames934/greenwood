@@ -5,3 +5,7 @@ export const SET_STATE = "SET_STATE";
 export const UPDATE_STATS = "UPDATE_STATS";
 
 export const PUSH_NOTIFICATION = "PUSH_NOTIFICATION";
+
+export const PASS_MINUTES = "PASS_MINUTES";
+
+export const SET_TIME_TO = "SET_TIME_TO";

@@ -4,7 +4,7 @@ import {ToastContainer} from 'react-toastify';
 import Notifications from "../Components/Gameplay/Notifications/Notifications";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css';
-import './App.css';
+import './App.scss';
 import CurrentView from "../Components/Gameplay/CurrentView/CurrentView";
 
 class App extends Component {
@@ -21,3 +21,5 @@ class App extends Component {
 }
 
 export default App;
+
+

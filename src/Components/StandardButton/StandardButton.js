@@ -18,8 +18,8 @@ class StandardButton extends Component {
 }
 
 StandardButton.propTypes = {
-  color: PropTypes.string,
-  icon: PropTypes.object,
+  color: PropTypes.string.isRequired,
+  icon: PropTypes.object.isRequired,
   text: PropTypes.string.isRequired,
   clickFunction: PropTypes.func.isRequired
 };
