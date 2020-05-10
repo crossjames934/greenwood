@@ -1,31 +1,31 @@
 import React, {Component} from 'react';
+import {ListGroup, ListGroupItem} from 'reactstrap';
 import {connect} from 'react-redux';
-
-const mapStateToProps = ({notifications}) => ({
-  notifications
-});
 
 class Notifications extends Component {
   singleNotification = (notification, index) => {
-    const {text, color} = notification;
-    const listItemClass = color ? `text-${color}` : "";
+    const {text, color, dateTime} = notification;
     return(
-      <li key={"notification_"+index} className={listItemClass}>
-        {text}
-      </li>
-    )
+      <ListGroup className="m-2 fade-in" key={"notification_" + index}>
+        <ListGroupItem color={color}>
+          {text}
+          <small className="float-right">{dateTime.format("HH:mm DD/MM/YYYY")}</small>
+        </ListGroupItem>
+      </ListGroup>
+    );
   };
 
   render() {
-    console.log(this.props.notifications);
     return(
       <div className="notifications">
-        <ul>
-          {this.props.notifications.map((notification, index) => this.singleNotification(notification, index))}
-        </ul>
+        {this.props.notifications.map((notification, index) => this.singleNotification(notification, index))}
       </div>
     )
   }
 }
+
+const mapStateToProps = ({notifications}) => ({
+  notifications
+});
 
 export default connect(mapStateToProps)(Notifications);

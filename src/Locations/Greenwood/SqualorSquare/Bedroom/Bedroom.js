@@ -25,16 +25,16 @@ class Bedroom extends Component {
 
   badSleep = () => {
     const {pushNotification, updateStats} = this.props;
-    pushNotification({
-      text: "You slept really badly, one of your neighbours spent the whole night screaming.",
-      color: "danger"
-    });
     updateStats({
       energy: 60,
       hygiene: -30,
       health: 5,
       nourishment: -30,
       zen: -10
+    });
+    pushNotification({
+      text: "You slept really badly, one of your neighbours spent the whole night screaming.",
+      color: "danger"
     });
   }
 

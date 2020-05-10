@@ -13,11 +13,11 @@ class LifeStats extends Component {
 
   render() {
     const {healthIcon, energyIcon, nourishmentIcon, hygieneIcon, zenIcon} = this;
-    const {health, energy, nourishment, hygiene, zen} = this.props;
+    const {health, energy, nourishment, hygiene, zen, maxHealth, maxEnergy} = this.props;
     return(
       <div>
-        <SingleStat icon={healthIcon()} label={"Health"} value={health.value} max={health.max}/>
-        <SingleStat icon={energyIcon()} label={"Energy"} value={energy.value} max={energy.max}/>
+        <SingleStat icon={healthIcon()} label={"Health"} value={health} max={maxHealth}/>
+        <SingleStat icon={energyIcon()} label={"Energy"} value={energy} max={maxEnergy}/>
         <SingleStat icon={nourishmentIcon()} label={"Nourishment"} value={nourishment} max={100}/>
         <SingleStat icon={hygieneIcon()} label={"Hygiene"} value={hygiene} max={100}/>
         <SingleStat icon={zenIcon()} label={"Zen"} value={zen} max={100}/>
@@ -26,8 +26,8 @@ class LifeStats extends Component {
   }
 }
 
-const mapStateToProps = ({health, energy, nourishment, hygiene, zen}) => (
-  {health, energy, nourishment, hygiene, zen}
+const mapStateToProps = ({health, energy, nourishment, hygiene, zen, maxHealth, maxEnergy}) => (
+  {health, energy, nourishment, hygiene, zen, maxHealth, maxEnergy}
 );
 
 export default connect(mapStateToProps)(LifeStats);

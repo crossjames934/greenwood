@@ -1,16 +1,15 @@
+import {determineMaxFromProperty} from "./determineMaxFromProperty";
+
 export const determineNewStats = (state, update) => {
+  const newState = {};
   const propertiesForChanging = Object.keys(update);
   propertiesForChanging.forEach(property => {
+    newState[property] = state[property];
     const updateValue = update[property];
-    const statMaxIsDefault100 = typeof state[property] === "number";
-    const max = statMaxIsDefault100 ? 100 : state[property].max;
-    if (statMaxIsDefault100) {
-      state[property] += updateValue;
-      if (state[property] > max) state[property] = max;
-    } else {
-      state[property].value += updateValue;
-      if (state[property].value > max) state[property].value = max;
-    }
+    const max = determineMaxFromProperty(state, property);
+    newState[property] += updateValue;
+    if (newState[property] > max) newState[property] = max;
   });
-  return state;
+  return newState;
 };
+

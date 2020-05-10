@@ -29,9 +29,10 @@ function rootReducer(state = initialState, action) {
         ...newState
       }
     case PUSH_NOTIFICATION:
+      payload.dateTime = state.gameTime.clone();
       return {
         ...state,
-        notifications: [...state.notifications, payload]
+        notifications: [payload, ...state.notifications]
       };
     case PASS_MINUTES:
       newTime.add(payload, 'minutes');

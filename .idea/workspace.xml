@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4e21b9-2549-4ef8-8824-a9b1ca12b620" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/custom_scripts/moment_playground.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/NavigationButton/NavigationButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Locations/Greenwood/CluckBunker/CluckBunker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Locations/Greenwood/CluckBunker/Components/WorkAtCluckBunker/WorkAtCluckBunker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Locations/Greenwood/CluckBunker/Components/OrderFoodCluckBunker/Menu/ChickenPieces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Locations/Greenwood/CluckBunker/Components/OrderFoodCluckBunker/Menu/Chips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Locations/Greenwood/CluckBunker/Components/OrderFoodCluckBunker/OrderFoodCluckBunker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/reducers/ChangeState/determineMaxFromProperty.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/StandardButton/StandardButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StandardButton/StandardButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locations/Greenwood/CluckShack/CluckShack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locations/Greenwood/CluckShack/employment/cluckShackCareerPath.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locations/Greenwood/CluckBunker/Components/WorkAtCluckBunker/employment/cluckShackCareerPath.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Gameplay/Notifications/Notifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Gameplay/Notifications/Notifications.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/LifeStats/LifeStats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Gameplay/PlayerStats/LifeStats/LifeStats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locations/Greenwood/CluckBunker/CluckBunker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locations/Greenwood/CluckBunker/CluckBunker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locations/Greenwood/CluckBunker/Components/WorkAtCluckBunker/WorkAtCluckBunker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locations/Greenwood/CluckBunker/Components/WorkAtCluckBunker/WorkAtCluckBunker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Locations/Greenwood/Greenwood.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locations/Greenwood/Greenwood.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Locations/Greenwood/SqualorSquare/Bedroom/Bedroom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locations/Greenwood/SqualorSquare/Bedroom/Bedroom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locations/Greenwood/SqualorSquare/SqualorSquare.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locations/Greenwood/SqualorSquare/SqualorSquare.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/actionTypes/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/actionTypes/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/actions/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/actions/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/initialState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/initialState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/reducers/ChangeState/determineNewStats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/ChangeState/determineNewStats.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +117,7 @@
       <workItem from="1588621816583" duration="4561000" />
       <workItem from="1588698331472" duration="14000" />
       <workItem from="1588761217978" duration="645000" />
-      <workItem from="1589027683943" duration="10723000" />
+      <workItem from="1589027683943" duration="16232000" />
     </task>
     <servers />
   </component>
@@ -137,6 +134,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="229" y="77" key="SettingsEditor" timestamp="1589104992002">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="229" y="77" key="SettingsEditor/0.23.1440.831@0.23.1440.831" timestamp="1589104992002" />
     <state x="2385" y="336" width="670" height="676" key="search.everywhere.popup" timestamp="1589043319541">
       <screen x="1440" y="23" width="2560" height="1371" />
     </state>

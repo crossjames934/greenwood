@@ -2,11 +2,11 @@ import React, {Component} from 'react';
 import {connect} from "react-redux";
 import {bindActionCreators} from 'redux';
 import {setState, pushNotification, setActiveComponent, passMinutes, setTimeTo} from "../../../Redux/actions/actions";
-import {faBriefcase, faCity} from '@fortawesome/free-solid-svg-icons';
-import StandardButton from "../../../Components/StandardButton/StandardButton";
+import {faCity, faDrumstickBite} from '@fortawesome/free-solid-svg-icons';
 import Greenwood from "../Greenwood";
 import NavigationButton from "../../../Components/NavigationButton/NavigationButton";
 import WorkAtCluckBunker from "./Components/WorkAtCluckBunker/WorkAtCluckBunker";
+import OrderFoodCluckBunker from "./Components/OrderFoodCluckBunker/OrderFoodCluckBunker";
 
 class CluckBunker extends Component {
   render() {
@@ -16,6 +16,7 @@ class CluckBunker extends Component {
           Cluck Bunker
         </h1>
         <div>
+          <NavigationButton icon={faDrumstickBite} targetComponent={<OrderFoodCluckBunker/>} color="warning" text="Order Food"/>
           <WorkAtCluckBunker/>
           <NavigationButton icon={faCity} targetComponent={<Greenwood/>} text="Exit (To Greenwood)"/>
         </div>

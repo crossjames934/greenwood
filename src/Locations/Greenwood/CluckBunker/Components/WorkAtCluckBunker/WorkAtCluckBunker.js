@@ -3,7 +3,6 @@ import StandardButton from "../../../../../Components/StandardButton/StandardBut
 import {faBriefcase} from "@fortawesome/free-solid-svg-icons";
 import {bindActionCreators} from "redux";
 import {
-  passMinutes,
   pushNotification,
   setActiveComponent,
   setState,
@@ -67,10 +66,10 @@ class WorkAtCluckBunker extends Component {
     pushNotification(notification);
     setTimeTo("16:00");
     setState({
-      energy: {value: energy.value - 60, max: energy.max},
+      energy: -60,
       money: money + 42,
       hygiene: hygiene - 10,
-      zen: zen + zenChange
+      zen: zen + zenChange,
     });
   };
 
@@ -84,7 +83,7 @@ const mapStateToProps = ({energy, hygiene, zen, money, gameTime}) => (
 );
 
 const mapDispatchToProps = dispatch => (
-  bindActionCreators({setState, pushNotification, setActiveComponent, passMinutes, setTimeTo}, dispatch)
+  bindActionCreators({setState, pushNotification, setActiveComponent, setTimeTo}, dispatch)
 );
 
 export default connect(mapStateToProps, mapDispatchToProps)(WorkAtCluckBunker);
